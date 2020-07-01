@@ -4,8 +4,10 @@
     height: 100%;
     border-right: rgba(189, 189, 192, 0.1);
     transition: width 0.3s;
+    overflow-y: scroll;
 }
 
+/* not small devices */
 @media (min-width: 576px) {
     .Sidebar {
         width: 320px;
